@@ -1,0 +1,160 @@
+body {
+   background: url("images/bg-pattern-top-desktop.svg") top left, url("images/bg-pattern-bottom-desktop.svg") bottom right;
+   background-repeat: no-repeat;
+   background-size: 39% 58%, 65% 80%;
+   min-height: 92vh;
+}
+.body {
+   max-width: 1050px;
+   width: 90%;
+   margin: auto;
+   font-family: 'League Spartan', sans-serif;
+   margin-top: 50px;
+}
+.tenrate {
+   display: flex;
+   justify-content: space-between;
+}
+.ten {
+   width: 35%;
+}
+.rate {
+   width: 40%;
+   margin-top: 100px;
+}
+.users {
+   
+}
+.product {
+   color: hsl(300, 43%, 22%);
+}
+h1 {
+   font-size: 3rem;
+   color: hsl(300, 43%, 22%);
+}
+.rateone {
+    border: 1px solid hsl(300, 24%, 96%);
+    background: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+     margin-bottom: 15px;
+     position: relative;
+    right: 80px;
+}
+h4 {
+   margin: 0;
+}
+.ratetwo {
+   border: 1px solid hsl(300, 24%, 96%);
+   background: hsl(300, 24%, 96%);
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-evenly;
+   padding: 15px;
+   margin-bottom: 15px;
+   position: relative;
+    right: 40px;
+   }
+.ratethree {
+   border: 1px solid hsl(300, 24%, 96%);
+    background: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+    
+   
+}
+.coltonimg {
+   display: flex;
+}
+.coltontext {
+   margin: auto;
+   margin-left: 15px;
+}
+.cimage {
+   border-radius: 50px;
+   width: 18%;
+}
+.boxrate {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 5%;
+}
+.boxrate1 {
+   background-color: hsl(300, 43%, 22%);
+   width: 30%;
+   border-radius: 10px;
+}
+.boxrate2 {
+   background-color: hsl(300, 43%, 22%);
+   width: 30%;
+   border-radius: 10px;
+   top: 20px;
+    position: relative;
+}
+.boxrate3 {
+   background-color: hsl(300, 43%, 22%);
+   width: 30%;
+   border-radius: 10px;
+   top: 40px;
+    position: relative;
+}
+.colton {
+   width: 80%;
+   margin: auto;
+   padding: 1rem;
+}
+.name {
+   color: white;
+}
+.verify {
+   color: hsl(333, 80%, 67%);
+}
+
+
+
+@media (max-width:790px) { 
+   body {
+      background-size: 100% 24%, 106% 40%;
+      padding-bottom: 60px;
+   }
+   .tenrate {
+      flex-direction: column;
+   }
+   .ten {
+      width: 100%;
+      text-align: center;
+   }
+   .users {
+      width: 100%;
+   }
+   .rate {
+      width: 100%;
+   }
+   .rateone, .ratetwo {
+      position: relative;
+      right: 0;
+      flex-direction: column;
+      text-align: center;
+      padding: 7px;
+   }
+   .ratethree {
+      flex-direction: column;
+      text-align: center;
+      padding: 7px;
+   }
+   .images {
+      margin-bottom: 1%;
+   }
+   .boxrate {
+      flex-direction: column;
+   }
+   .boxrate1, .boxrate2, .boxrate3 {
+      width: 100%;
+   }
+
+}
+
